@@ -1,0 +1,3 @@
+# tic-tac-toe
+
+A Tic-Tac-Toe game program where a human can play against the computer, and the computer makes all its moves using pure Monte Carlo tree search. When it is the computers turn to make a move, it makes a list of all legals moves. Then for each of these moves it does some number of random playouts. A random playout is when the computer simulates playing the game — using randomly chosen moves — until it is over, i.e. a win, loss, or draw is reached. It records the result (a win, loss, or draw), and then does some more random playouts. It does random playouts for every possible move, and when they’re done it choses the move that resulted in the greatest number of wins and ties. 
